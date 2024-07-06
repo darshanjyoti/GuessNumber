@@ -1,0 +1,17 @@
+<div class="game">
+    <h2>Number Guessing Game</h2>
+    <p>Guess a number between {{ gameLogicService.minNumber }} and {{ gameLogicService.maxNumber }}</p>
+    
+    <div class="input">
+      <input type="number" [(ngModel)]="guess" placeholder="Enter your guess" />
+      <button class="btn btn-primary" (click)="makeGuess()">Guess</button>
+    </div>
+  
+    <div class="result">
+      <p *ngIf="feedback">{{ feedback }}</p>
+      <p >Attempts: {{ attempts }}</p>
+    </div>
+  
+    <button class="btn btn-secondary" (click)="startNewGame()">Start New Game</button>
+  </div>
+  

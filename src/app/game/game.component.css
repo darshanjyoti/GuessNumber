@@ -1,0 +1,44 @@
+.game {
+  width: 400px; /* Adjust width as needed */
+  margin: 0 auto; /* Center align horizontally */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(10, 10, 203); /* Box shadow for a subtle effect */
+  background-color: #e0e0e0; /* Background color */
+}
+
+.game h2 {
+  text-align: center; /* Center align the heading */
+}
+
+.input {
+  margin-bottom: 20px; /* Space between input and button */
+}
+
+.result {
+  margin-top: 20px; /* Space above the result section */
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  opacity: 0.8;
+}
